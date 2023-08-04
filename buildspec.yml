@@ -6,8 +6,7 @@ phases:
       - echo Entered the build phase...
       - mvn clean package 
 pre_build:
-  commands:
-- mkdir /downloads/sonarqube -p
+ - mkdir /downloads/sonarqube -p
 - cd /downloads/sonarqube
 - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
 - unzip sonar-scanner-cli-4.2.0.1873-linux.zip
