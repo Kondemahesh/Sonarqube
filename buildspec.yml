@@ -1,5 +1,10 @@
 version: 0.2
 shell: bash
+phases:
+  build:
+    commands:
+      - echo Entered the build phase...
+      - mvn clean package 
 pre_build:
   commands:
 - mkdir /downloads/sonarqube -p
