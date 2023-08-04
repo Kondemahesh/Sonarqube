@@ -17,6 +17,3 @@ build:
 commands:
 - cd ../..
 - cd /codebuild/output/src*/src
-mvn sonar:sonar \
-  -Dsonar.projectKey=tomcatproject \
-  -Dsonar.host.url=http://13.235.79.98:9000 \
