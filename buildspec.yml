@@ -20,4 +20,3 @@ commands:
 mvn sonar:sonar \
   -Dsonar.projectKey=tomcatproject \
   -Dsonar.host.url=http://13.235.79.98:9000 \
-  -Dsonar.login=4397665fb2122e8e88b95a0e9032d24fbca0cefb
